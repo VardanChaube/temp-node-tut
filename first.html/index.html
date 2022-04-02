@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webpage</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      nav{
+          background-color: black;
+          overflow: hidden;
+      }
+      
+      .logo img{
+          float: left;
+          padding: 20px 20px;
+      }
+      ul {
+          list-style-type: none;
+          float: right;
+          padding-top: 40px
+      }
+      ul li{
+          display: inline-block;
+      }
+      ul li a{
+          text-decoration: none;
+          text-align: center;
+          padding: 20px 20px;
+          color: white;
+      }
+      .intro h1{
+          padding-left: 15px;
+          padding: 10px 10px;
+      }
+      .intro #btn1{
+          float: left;
+          margin: 10px 10px;
+          padding:8px 7px;
+          border-radius: 12px;
+          background-color: rgb(55, 252, 186);
+
+      }
+      .intro #btn2{
+          float: right;
+          margin: 10px 10px;
+          padding:8px 7px;
+          border-radius: 12px;
+          background-color: rgb(55, 252, 186);
+      }
+      h3{
+          padding:12px 7px;
+      }
+      h2{
+          padding: 15px 15px;
+      }
+      .info h3{
+          float: left;
+      }
+      .form{
+          width: 500px;
+          height: 470px;
+          margin: 50px 400px;
+          background-color: beige;
+      }
+      .form h2{
+          text-align: center;
+          text-decoration: underline;
+      }
+      .form input{
+          margin-left: 30px;
+          margin-top: 7px;
+          padding: 8px 8px;
+          border-radius: 5px;
+      }
+      .form label{
+          margin: 15px 30px;
+      }
+      .form button{
+          margin: 50px 220px;
+          padding: 10px 10px;
+          border-radius: 8px;
+          background-color: aquamarine;
+      }
+
+     
+
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" width="50px" height="50px" alt="">
+      </div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">MORE</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+        <h1>WEB DEVELOPEMENT:</h1>
+        <button id="btn1">Previous</button>
+        <button id="btn2">Next</button>
+    </div><br><br><br>
+    <hr>
+    <h3>HTML,CSS AND Javascript is the language we use to style a Web page.</h3><hr>
+    <h2>What is web devlopement?</h2>
+    <p>It is inclusion of frontend and backend.</p>
+
+    <div class="info">
+        <pre> 
+            Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+
+            Responsive Web Design is used in all types of modern web development.
+            
+            ECMAScript 5 (JavaScript 5) is supported in all modern browsers. Take a good look at it, especially the new array functions.
+            </pre>
+
+   </div><br><br><br><br><hr>
+   <pre>CSS Solved a Big Problem
+
+    HTML was NEVER intended to contain tags for formatting a web page!
+    
+    HTML was created to describe the content of a web page, like:
+    
+    <h1>This is a heading</h1>
+    
+    <p>This is a paragraph.</p>
+    
+    When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. 
+        
+        Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+    
+    To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+    
+    CSS removed the style formatting from the HTML page!</pre>
+
+    <hr>
+    <br><br>
+
+    <div class="form">
+        <h2>Register Yourself.</h2>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name"><br>
+        <input type="text" placeholder="Email"><br><br>
+        <form>  
+    
+            <label>  
+            Gender:   
+            </label>  <br>  
+            <input type="radio" id="gender" name="gender" value="male"/> Male    
+            <br>  
+            <input type="radio" id="gender" name="gender" value="female"/> Female <br/>   
+            </form>
+            <br>  
+            
+              <h3>Enter Your Age: </h3><input type="date">
+<br>
+            <button>Register</button>
+
+    </div>
+  </body>
+</html>
+
